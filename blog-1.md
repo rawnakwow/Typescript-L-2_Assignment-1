@@ -1,7 +1,7 @@
 # Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
 
 
-# Why is `any` a Type Safety Hole, and Why is `unknown` Safer?
+
 
 ## Introduction
 
