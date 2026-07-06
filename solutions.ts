@@ -63,7 +63,6 @@ export class Student extends Person {
 
 
 
-
 export function getIntersection(firstArray: number[], secondArray: number[]): number[] {
   return firstArray.filter((number) => secondArray.includes(number));
 }
