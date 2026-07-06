@@ -7,15 +7,19 @@ export function reverseString(text: string): string {
   return text.split("").reverse().join("");
 }
 
+
+
 type StringOrNumber = string | number;
 
 export function checkType(value: StringOrNumber): string {
   return typeof value === "string" ? "String" : "Number";
 }
 
+
 export function getProperty<T, K extends keyof T>(object: T, key: K): T[K] {
   return object[key];
 }
+
 
 
 export interface Book {
@@ -33,6 +37,7 @@ export function toggleReadStatus(book: Book): Book & { isRead: boolean } {
 
 
 
+
 class Person {
   name: string;
   age: number;
@@ -42,7 +47,6 @@ class Person {
     this.age = age;
   }
 }
-
 
 export class Student extends Person {
   grade: string;
